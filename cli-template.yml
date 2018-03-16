@@ -1,0 +1,9 @@
+build:
+  - make
+files:
+  - makefile
+  - src/main.c
+main: src/main.c
+command: ./main
+envConf:
+  imageName: "givery/track-base2"
